@@ -9,8 +9,8 @@ namespace PDF_API.Infra.Mappings
     {
         public void Configure(EntityTypeBuilder<PDF> builder)
         {
-            builder.ToTable("PDFs");
-            
+            builder.ToTable("PDF");
+
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.Id)

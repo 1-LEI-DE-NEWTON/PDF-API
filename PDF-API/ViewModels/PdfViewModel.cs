@@ -8,5 +8,8 @@ namespace PDF_API.ViewModels
         [Required(ErrorMessage = "Please select a file.")]
         [DataType(DataType.Upload)]
         public IFormFile Pdf { get; set; }
+        public int SetorId { get; set; }
+        public int LotacaoId { get; set; }
+        
     }
 }
